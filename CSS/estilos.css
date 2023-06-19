@@ -3,22 +3,24 @@ html {
 }
 
 body {
-  background-color: #9eaff9;
+  background-color: #525252;
 }
 
 header {
-  background-color: #8c84e3;
+  background-color: #000000;
   padding: 3%;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
+  color: white;
 }
 
 main {
   border: 3px dotted black;
   border-radius: 10px;
-  background-color: #93defd;
+  background-color: #002230;
   margin: 4% 3%;
+  color: white;
 }
 
 .codi,
@@ -26,8 +28,9 @@ main {
 .copi {
   display: inline-block;
   padding: 10px 50px;
-  background-color: #b892fc;
+  background-color: #747474;
   font-weight: bold;
+  color: white;
 }
 
 .codi,
@@ -38,8 +41,9 @@ main {
 .codi:hover,
 .deco:hover,
 .copi:hover {
-  background-color: #8c84e3;
+  background-color: #ffffff;
   transform: scale(1.1);
+  color: black;
 }
 
 main div,
@@ -50,7 +54,7 @@ fieldset {
 }
 
 div legend {
-  color: dimgrey;
+  color: rgba(255, 255, 255, 0.849);
   font-style: italic;
 }
 
